@@ -1,0 +1,48 @@
+[package]
+name = "curso-completo-rust"
+version = "1.0.0"
+edition = "2021"
+authors = ["Jackson Sá <jackson.sa@etec.sp.gov.br>"]
+description = "Curso Completo de Rust: Fundamentos, Avançado e Embarcados - ETEC Bento Quirino"
+license = "MIT"
+repository = "https://github.com/jackson-sa/curso-completo-rust"
+keywords = ["rust", "programming", "education", "data-structures", "embedded"]
+categories = ["education", "development-tools"]
+
+[dependencies]
+# Dependências para desenvolvimento web
+tokio = { version = "1.0", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+reqwest = { version = "0.11", features = ["json"] }
+
+# Dependências para estruturas de dados
+indexmap = "2.0"
+linked-hash-map = "0.5"
+
+# Dependências para concorrência
+crossbeam = "0.8"
+rayon = "1.7"
+
+# Dependências para testes
+proptest = "1.0"
+
+# Dependências para desenvolvimento embarcado
+cortex-m = "0.7"
+cortex-m-rt = "0.7"
+nb = "1.0"
+embedded-hal = "1.0"
+stm32f4xx-hal = "0.15"
+
+[dev-dependencies]
+criterion = "0.5"
+
+[[bench]]
+name = "data_structures_bench"
+harness = false
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
