@@ -1,30 +1,141 @@
-# 📚 Tutoriais Passo a Passo - Curso Completo de Rust
+# 📚 Tutoriais - Curso Completo de Rust: Fundamentos, Avançado e Embarcados
 
-**Professor:** Jackson Sá  
-**ETEC Bento Quirino - Campinas/SP
+## 🎯 **Guia de Tutoriais Práticos**
+
+Este documento contém tutoriais detalhados para cada módulo do curso, com exemplos práticos e projetos completos.
 
 ---
 
-## 🎯 Como Usar Este Material
+## 📋 **Navegação Principal**
 
-Este documento contém tutoriais práticos para cada módulo do curso. Cada tutorial guia você através da criação de um projeto completo, aplicando os conceitos aprendidos.
+### **🚀 Links Rápidos**
+- [**README Principal**](./README.md) - Visão geral do curso
+- [**Pré-requisitos**](#-pré-requisitos) - O que você precisa saber
+- [**Como Usar Este Guia**](#-como-usar-este-guia) - Como navegar pelos tutoriais
+- [**Recursos de Aprendizado**](#-recursos-de-aprendizado) - Links úteis e documentação
+- [**Comunidade e Suporte**](#-comunidade-e-suporte) - Onde encontrar ajuda
 
-### 📋 Pré-requisitos
+### **📚 Módulos do Curso**
+- [**Módulo 1: Fundamentos**](#-módulo-1-fundamentos-da-linguagem-rust) - Sintaxe básica e variáveis
+- [**Módulo 2: Ownership**](#-módulo-2-ownership-e-borrowing) - Sistema de ownership e borrowing
+- [**Módulo 3: Structs/Enums**](#-módulo-3-structs-enums-e-pattern-matching) - Structs, enums e pattern matching
+- [**Módulo 4: Collections**](#-módulo-4-collections-e-iterators) - Vec, HashMap e iterators
+- [**Módulo 5: Error Handling**](#-módulo-5-error-handling-e-result) - Result, Option e tratamento de erros
+- [**Módulo 6: Concorrência**](#-módulo-6-concorrência-e-threads) - Threads, channels e async/await
+- [**Módulo 7: Traits/Generics**](#-módulo-7-traits-e-generics) - Traits e generics
+- [**Módulo 8: Lifetimes**](#-módulo-8-lifetimes-e-advanced-types) - Lifetimes e advanced types
+- [**Módulo 9: Cargo/Crates**](#-módulo-9-cargo-e-crates) - Gerenciamento de dependências
+- [**Módulo 10: Projetos**](#-módulo-10-projetos-práticos) - Projetos práticos integrados
+- [**Módulo Embarcados**](#-módulo-especial-embarcados) - Arduino, ESP32 e Raspberry Pi
 
-- Rust (versão 1.70 ou superior)
-- Cargo (gerenciador de pacotes)
-- Editor de código (VS Code recomendado)
-- Git
+---
 
-### 🚀 Estrutura dos Tutoriais
+## 📋 **Índice de Tutoriais**
+
+### **Módulo 1: 🦀 Fundamentos da Linguagem Rust**
+- [Tutorial 1.1: Calculadora Interativa](#tutorial-11-calculadora-interativa)
+- [Tutorial 1.2: Sistema de Variáveis](#tutorial-12-sistema-de-variáveis)
+- [Tutorial 1.3: Controle de Fluxo](#tutorial-13-controle-de-fluxo)
+
+### **Módulo 2: 🔐 Ownership e Borrowing**
+- [Tutorial 2.1: Gerenciador de Strings](#tutorial-21-gerenciador-de-strings)
+- [Tutorial 2.2: Sistema de Referências](#tutorial-22-sistema-de-referências)
+- [Tutorial 2.3: Slices e Arrays](#tutorial-23-slices-e-arrays)
+
+### **Módulo 3: 🏗️ Structs, Enums e Pattern Matching**
+- [Tutorial 3.1: Sistema de Biblioteca](#tutorial-31-sistema-de-biblioteca)
+- [Tutorial 3.2: Enums Avançados](#tutorial-32-enums-avançados)
+- [Tutorial 3.3: Pattern Matching](#tutorial-33-pattern-matching)
+
+### **Módulo 4: 📦 Collections e Iterators**
+- [Tutorial 4.1: Gerenciador de Dados](#tutorial-41-gerenciador-de-dados)
+- [Tutorial 4.2: Iterators Funcionais](#tutorial-42-iterators-funcionais)
+- [Tutorial 4.3: Algoritmos Avançados](#tutorial-43-algoritmos-avançados)
+
+### **Módulo 5: ⚠️ Error Handling e Result**
+- [Tutorial 5.1: Sistema de Arquivos](#tutorial-51-sistema-de-arquivos)
+- [Tutorial 5.2: Error Propagation](#tutorial-52-error-propagation)
+- [Tutorial 5.3: Custom Error Types](#tutorial-53-custom-error-types)
+
+### **Módulo 6: 🔄 Concorrência e Threads**
+- [Tutorial 6.1: Servidor Web Simples](#tutorial-61-servidor-web-simples)
+- [Tutorial 6.2: Threads e Channels](#tutorial-62-threads-e-channels)
+- [Tutorial 6.3: Async/Await](#tutorial-63-asyncawait)
+
+### **Módulo 7: 🎭 Traits e Generics**
+- [Tutorial 7.1: Biblioteca de Algoritmos](#tutorial-71-biblioteca-de-algoritmos)
+- [Tutorial 7.2: Traits Avançados](#tutorial-72-traits-avançados)
+- [Tutorial 7.3: Generics Complexos](#tutorial-73-generics-complexos)
+
+### **Módulo 8: ⏰ Lifetimes e Advanced Types**
+- [Tutorial 8.1: Sistema de Cache](#tutorial-81-sistema-de-cache)
+- [Tutorial 8.2: Smart Pointers](#tutorial-82-smart-pointers)
+- [Tutorial 8.3: Lifetime Annotations](#tutorial-83-lifetime-annotations)
+
+### **Módulo 9: 📦 Cargo e Crates**
+- [Tutorial 9.1: Biblioteca Personalizada](#tutorial-91-biblioteca-personalizada)
+- [Tutorial 9.2: Cargo Workspaces](#tutorial-92-cargo-workspaces)
+- [Tutorial 9.3: Publishing Crates](#tutorial-93-publishing-crates)
+
+### **Módulo 10: 🎯 Projetos Práticos**
+- [Tutorial 10.1: Sistema de Banco de Dados](#tutorial-101-sistema-de-banco-de-dados)
+- [Tutorial 10.2: Cliente HTTP](#tutorial-102-cliente-http)
+- [Tutorial 10.3: Jogo da Vida](#tutorial-103-jogo-da-vida)
+
+### **Módulo Especial: 🔧 Rust para Embarcados**
+- [Tutorial E.1: Arduino com Rust](#tutorial-e1-arduino-com-rust)
+- [Tutorial E.2: ESP32 IoT](#tutorial-e2-esp32-iot)
+- [Tutorial E.3: Raspberry Pi](#tutorial-e3-raspberry-pi)
+
+---
+
+## 📋 **Pré-requisitos**
+
+### **Obrigatórios**
+- ✅ **Rust (versão 1.70 ou superior)** - [Instalar Rust](https://rustup.rs/)
+- ✅ **Cargo (gerenciador de pacotes)** - Instalado automaticamente com Rust
+- ✅ **Editor de código** - [VS Code com rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer) recomendado
+- ✅ **Git** - Para controle de versão
+- ✅ **Conhecimento básico de programação** - Variáveis, funções, estruturas de controle
+
+### **Recomendados**
+- ✅ **Familiaridade com linha de comando** - Terminal/CMD básico
+- ✅ **Conceitos básicos de programação funcional** - Funções, imutabilidade
+- ✅ **Experiência com outras linguagens** - C/C++, Python, JavaScript, etc.
+- ✅ **Conceitos de sistemas operacionais** - Memória, processos, threads
+
+### **Recursos de Preparação**
+- [**Rustlings**](https://github.com/rust-lang/rustlings) - Exercícios interativos para iniciantes
+- [**The Rust Book**](https://doc.rust-lang.org/book/) - Documentação oficial completa
+- [**Rust by Example**](https://doc.rust-lang.org/rust-by-example/) - Exemplos práticos
+- [**Rust Playground**](https://play.rust-lang.org/) - Ambiente online para experimentar
+
+## 📖 **Como Usar Este Guia**
+
+### **Estrutura dos Tutoriais**
 
 Cada tutorial segue esta estrutura:
 
-1. **Configuração do Projeto** - Setup inicial
-2. **Estrutura de Pastas** - Organização do código
-3. **Implementação Passo a Passo** - Código detalhado
-4. **Testes e Validação** - Verificação do funcionamento
-5. **Exercícios de Extensão** - Desafios adicionais
+1. **📋 Configuração do Projeto** - Setup inicial e dependências
+2. **📁 Estrutura de Pastas** - Organização do código
+3. **💻 Implementação Passo a Passo** - Código detalhado e comentado
+4. **🧪 Testes e Validação** - Verificação do funcionamento
+5. **🎯 Exercícios de Extensão** - Desafios adicionais
+6. **📚 Recursos Adicionais** - Links úteis e documentação
+
+### **Ordem Recomendada**
+
+1. **Siga os módulos em ordem sequencial** - Cada módulo constrói sobre o anterior
+2. **Complete os tutoriais práticos** - Aplique o conhecimento em projetos reais
+3. **Experimente as variações** - Crie suas próprias versões dos projetos
+4. **Participe da comunidade** - Compartilhe seus projetos e dúvidas
+
+### **Dicas de Estudo**
+
+- **Pratique regularmente** - Faça pelo menos um projeto por semana
+- **Documente seu progresso** - Mantenha um log dos projetos que você criou
+- **Leia código de outros** - Explore projetos open source para aprender padrões avançados
+- **Não tenha medo de errar** - Erros são parte do processo de aprendizado
 
 ---
 
@@ -401,4 +512,28 @@ graph TD
 
 ---
 
-**Boa sorte e bons estudos! 🦀**
+## 🧭 **Navegação**
+
+### **📚 Material de Apoio**
+- [**README Principal**](./README.md) - Visão geral do curso
+- [**Módulo 1: Fundamentos**](./modulo-01-fundamentos-rust/README.md) - Comece aqui
+- [**Módulo 2: Ownership**](./modulo-02-ownership-borrowing/README.md) - Próximo módulo
+- [**Módulo Embarcados**](./modulo-embarcados/README.md) - Desenvolvimento IoT
+
+### **🔗 Links Úteis**
+- [Comunidade Rust Brasil](https://github.com/rust-br)
+- [Documentação Oficial](https://doc.rust-lang.org/)
+- [Rust Playground](https://play.rust-lang.org/)
+- [Crates.io](https://crates.io/)
+
+### **📖 Documentação Oficial**
+- [The Rust Book](https://doc.rust-lang.org/book/)
+- [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
+- [Rustlings](https://github.com/rust-lang/rustlings)
+- [Cargo Book](https://doc.rust-lang.org/cargo/)
+
+---
+
+**Desenvolvido com ❤️ para a comunidade Rust brasileira**
+
+*ETEC Bento Quirino - Curso Completo de Rust: Fundamentos, Avançado e Embarcados*

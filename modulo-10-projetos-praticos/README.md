@@ -2,10 +2,60 @@
 
 ## 🎯 Objetivos de Aprendizagem
 
-- Integrar todos os conceitos aprendidos
-- Criar projetos completos e funcionais
-- Implementar sistemas reais
-- Desenvolver portfólio profissional
+Ao final deste módulo, você será capaz de:
+
+- ✅ Integrar todos os conceitos aprendidos
+- ✅ Criar projetos completos e funcionais
+- ✅ Implementar sistemas reais
+- ✅ Desenvolver portfólio profissional
+
+## 📋 **Pré-requisitos**
+
+### **Obrigatórios**
+- ✅ **Conhecimento básico de programação** - Variáveis, funções, estruturas de controle
+- ✅ **Rust (versão 1.70 ou superior)** - [Instalar Rust](https://rustup.rs/)
+- ✅ **Cargo (gerenciador de pacotes)** - Instalado automaticamente com Rust
+- ✅ **Editor de código** - [VS Code com rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer) recomendado
+- ✅ **Git** - Para controle de versão
+- ✅ **Conclusão do Módulo 9** - [Cargo e Crates](../modulo-09-cargo-crates/README.md)
+
+### **Recomendados**
+- ✅ **Familiaridade com linha de comando** - Terminal/CMD básico
+- ✅ **Conceitos básicos de programação funcional** - Funções, imutabilidade
+- ✅ **Experiência com outras linguagens** - C/C++, Python, JavaScript, etc.
+- ✅ **Conceitos de sistemas operacionais** - Memória, processos, threads
+
+### **Recursos de Preparação**
+- [**Rustlings**](https://github.com/rust-lang/rustlings) - Exercícios interativos para iniciantes
+- [**The Rust Book**](https://doc.rust-lang.org/book/) - Documentação oficial completa
+- [**Rust by Example**](https://doc.rust-lang.org/rust-by-example/) - Exemplos práticos
+- [**Rust Playground**](https://play.rust-lang.org/) - Ambiente online para experimentar
+
+## 📚 **Recursos de Aprendizado**
+
+### **Documentação Oficial**
+- [**The Rust Book - Final Project**](https://doc.rust-lang.org/book/ch20-00-final-project-a-web-server.html)
+- [**Rust by Example - Projects**](https://doc.rust-lang.org/rust-by-example/std_misc.html)
+- [**Rustlings - Projects**](https://github.com/rust-lang/rustlings) - Exercícios interativos
+- [**Rust Reference - Projects**](https://doc.rust-lang.org/reference/items.html)
+
+### **Comunidades e Fóruns**
+- [**Reddit r/rust**](https://reddit.com/r/rust) - Comunidade ativa
+- [**Rust Users Forum**](https://users.rust-lang.org/) - Fórum oficial
+- [**Stack Overflow**](https://stackoverflow.com/questions/tagged/rust) - Perguntas e respostas
+- [**Rust Discord**](https://discord.gg/rust-lang) - Chat em tempo real
+
+## 📖 **Índice do Módulo**
+
+- [**Objetivos de Aprendizagem**](#-objetivos-de-aprendizagem)
+- [**Pré-requisitos**](#-pré-requisitos)
+- [**Recursos de Aprendizado**](#-recursos-de-aprendizado)
+- [**Projetos do Módulo**](#-projetos-do-módulo)
+- [**Tutorial Prático**](#-tutorial-prático-sistema-completo-integrado)
+- [**Atividades Práticas**](#-atividades-práticas)
+- [**Exercícios de Fixação**](#-exercícios-de-fixação)
+- [**Próximos Passos**](#-próximos-passos)
+- [**Navegação**](#-navegação)
 
 ## 📚 Projetos do Módulo
 
@@ -463,6 +513,26 @@ Parabéns! Você completou o curso completo de Rust. Você agora é capaz de:
 - Criar bibliotecas e crates
 - Contribuir para projetos open source
 - Resolver problemas complexos com Rust
+
+## 🧭 **Navegação**
+
+### **📚 Material de Apoio**
+- [**README Principal**](../../README.md) - Visão geral do curso
+- [**Tutoriais Detalhados**](../../TUTORIAIS.md) - Guia completo de tutoriais
+- [**Módulo 9: Cargo/Crates**](../modulo-09-cargo-crates/README.md) - Módulo anterior
+- [**Módulo Embarcados**](../modulo-embarcados/README.md) - Desenvolvimento IoT
+
+### **🔗 Links Úteis**
+- [Comunidade Rust Brasil](https://github.com/rust-br)
+- [Documentação Oficial](https://doc.rust-lang.org/)
+- [Rust Playground](https://play.rust-lang.org/)
+- [Crates.io](https://crates.io/)
+
+### **📖 Documentação Oficial**
+- [The Rust Book](https://doc.rust-lang.org/book/)
+- [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
+- [Rustlings](https://github.com/rust-lang/rustlings)
+- [Cargo Book](https://doc.rust-lang.org/cargo/)
 
 ---
 

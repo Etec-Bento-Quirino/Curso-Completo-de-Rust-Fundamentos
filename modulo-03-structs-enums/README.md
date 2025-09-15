@@ -4,12 +4,61 @@
 
 Ao final deste módulo, você será capaz de:
 
-- Definir e usar structs para criar tipos customizados
-- Trabalhar com enums e suas variantes
-- Aplicar pattern matching com match e if let
-- Implementar métodos para structs e enums
-- Usar associated functions
-- Criar tipos de dados complexos e expressivos
+- ✅ Definir e usar structs para criar tipos customizados
+- ✅ Trabalhar com enums e suas variantes
+- ✅ Aplicar pattern matching com match e if let
+- ✅ Implementar métodos para structs e enums
+- ✅ Usar associated functions
+- ✅ Criar tipos de dados complexos e expressivos
+
+## 📋 **Pré-requisitos**
+
+### **Obrigatórios**
+- ✅ **Conhecimento básico de programação** - Variáveis, funções, estruturas de controle
+- ✅ **Rust (versão 1.70 ou superior)** - [Instalar Rust](https://rustup.rs/)
+- ✅ **Cargo (gerenciador de pacotes)** - Instalado automaticamente com Rust
+- ✅ **Editor de código** - [VS Code com rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer) recomendado
+- ✅ **Git** - Para controle de versão
+- ✅ **Conclusão do Módulo 2** - [Ownership e Borrowing](../modulo-02-ownership-borrowing/README.md)
+
+### **Recomendados**
+- ✅ **Familiaridade com linha de comando** - Terminal/CMD básico
+- ✅ **Conceitos básicos de programação funcional** - Funções, imutabilidade
+- ✅ **Experiência com outras linguagens** - C/C++, Python, JavaScript, etc.
+- ✅ **Conceitos de sistemas operacionais** - Memória, processos, threads
+
+### **Recursos de Preparação**
+- [**Rustlings**](https://github.com/rust-lang/rustlings) - Exercícios interativos para iniciantes
+- [**The Rust Book**](https://doc.rust-lang.org/book/) - Documentação oficial completa
+- [**Rust by Example**](https://doc.rust-lang.org/rust-by-example/) - Exemplos práticos
+- [**Rust Playground**](https://play.rust-lang.org/) - Ambiente online para experimentar
+
+## 📚 **Recursos de Aprendizado**
+
+### **Documentação Oficial**
+- [**The Rust Book - Structs**](https://doc.rust-lang.org/book/ch05-00-structs.html)
+- [**The Rust Book - Enums**](https://doc.rust-lang.org/book/ch06-00-enums.html)
+- [**Rust by Example - Structs**](https://doc.rust-lang.org/rust-by-example/custom_types/structs.html)
+- [**Rust by Example - Enums**](https://doc.rust-lang.org/rust-by-example/custom_types/enum.html)
+
+### **Comunidades e Fóruns**
+- [**Reddit r/rust**](https://reddit.com/r/rust) - Comunidade ativa
+- [**Rust Users Forum**](https://users.rust-lang.org/) - Fórum oficial
+- [**Stack Overflow**](https://stackoverflow.com/questions/tagged/rust) - Perguntas e respostas
+- [**Rust Discord**](https://discord.gg/rust-lang) - Chat em tempo real
+
+## 📖 **Índice do Módulo**
+
+- [**Objetivos de Aprendizagem**](#-objetivos-de-aprendizagem)
+- [**Pré-requisitos**](#-pré-requisitos)
+- [**Recursos de Aprendizado**](#-recursos-de-aprendizado)
+- [**Conteúdo Teórico**](#-conteúdo-teórico)
+- [**Exemplos Práticos**](#-exemplos-práticos)
+- [**Tutorial Prático**](#-tutorial-prático-sistema-de-biblioteca)
+- [**Atividades Práticas**](#-atividades-práticas)
+- [**Exercícios de Fixação**](#-exercícios-de-fixação)
+- [**Próximos Passos**](#-próximos-passos)
+- [**Navegação**](#-navegação)
 
 ## 📚 Conteúdo Teórico
 
@@ -976,11 +1025,26 @@ No próximo módulo, você aprenderá a:
 - Aplicar algoritmos funcionais
 - Gerenciar dados em estruturas complexas
 
-## 📚 Recursos Adicionais
+## 🧭 **Navegação**
 
-- [Structs Chapter - The Rust Book](https://doc.rust-lang.org/book/ch05-00-structs.html)
-- [Enums Chapter - The Rust Book](https://doc.rust-lang.org/book/ch06-00-enums.html)
-- [Pattern Matching - The Rust Book](https://doc.rust-lang.org/book/ch06-02-match.html)
+### **📚 Material de Apoio**
+- [**README Principal**](../../README.md) - Visão geral do curso
+- [**Tutoriais Detalhados**](../../TUTORIAIS.md) - Guia completo de tutoriais
+- [**Módulo 2: Ownership**](../modulo-02-ownership-borrowing/README.md) - Módulo anterior
+- [**Módulo 4: Collections**](../modulo-04-collections-iterators/README.md) - Próximo módulo
+- [**Módulo Embarcados**](../modulo-embarcados/README.md) - Desenvolvimento IoT
+
+### **🔗 Links Úteis**
+- [Comunidade Rust Brasil](https://github.com/rust-br)
+- [Documentação Oficial](https://doc.rust-lang.org/)
+- [Rust Playground](https://play.rust-lang.org/)
+- [Crates.io](https://crates.io/)
+
+### **📖 Documentação Oficial**
+- [The Rust Book](https://doc.rust-lang.org/book/)
+- [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
+- [Rustlings](https://github.com/rust-lang/rustlings)
+- [Cargo Book](https://doc.rust-lang.org/cargo/)
 
 ---
 

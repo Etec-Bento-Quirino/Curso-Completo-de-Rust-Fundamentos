@@ -2,10 +2,61 @@
 
 ## 🎯 Objetivos de Aprendizagem
 
-- Dominar Cargo como gerenciador de projetos
-- Criar e publicar crates
-- Gerenciar dependências
-- Implementar testes e documentação
+Ao final deste módulo, você será capaz de:
+
+- ✅ Dominar Cargo como gerenciador de projetos
+- ✅ Criar e publicar crates
+- ✅ Gerenciar dependências
+- ✅ Implementar testes e documentação
+
+## 📋 **Pré-requisitos**
+
+### **Obrigatórios**
+- ✅ **Conhecimento básico de programação** - Variáveis, funções, estruturas de controle
+- ✅ **Rust (versão 1.70 ou superior)** - [Instalar Rust](https://rustup.rs/)
+- ✅ **Cargo (gerenciador de pacotes)** - Instalado automaticamente com Rust
+- ✅ **Editor de código** - [VS Code com rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer) recomendado
+- ✅ **Git** - Para controle de versão
+- ✅ **Conclusão do Módulo 8** - [Lifetimes e Advanced Types](../modulo-08-lifetimes-advanced/README.md)
+
+### **Recomendados**
+- ✅ **Familiaridade com linha de comando** - Terminal/CMD básico
+- ✅ **Conceitos básicos de programação funcional** - Funções, imutabilidade
+- ✅ **Experiência com outras linguagens** - C/C++, Python, JavaScript, etc.
+- ✅ **Conceitos de sistemas operacionais** - Memória, processos, threads
+
+### **Recursos de Preparação**
+- [**Rustlings**](https://github.com/rust-lang/rustlings) - Exercícios interativos para iniciantes
+- [**The Rust Book**](https://doc.rust-lang.org/book/) - Documentação oficial completa
+- [**Rust by Example**](https://doc.rust-lang.org/rust-by-example/) - Exemplos práticos
+- [**Rust Playground**](https://play.rust-lang.org/) - Ambiente online para experimentar
+
+## 📚 **Recursos de Aprendizado**
+
+### **Documentação Oficial**
+- [**Cargo Book**](https://doc.rust-lang.org/cargo/) - Guia completo do Cargo
+- [**Rust by Example - Cargo**](https://doc.rust-lang.org/rust-by-example/cargo.html)
+- [**Rustlings - Cargo**](https://github.com/rust-lang/rustlings) - Exercícios interativos
+- [**Crates.io**](https://crates.io/) - Repositório de bibliotecas
+
+### **Comunidades e Fóruns**
+- [**Reddit r/rust**](https://reddit.com/r/rust) - Comunidade ativa
+- [**Rust Users Forum**](https://users.rust-lang.org/) - Fórum oficial
+- [**Stack Overflow**](https://stackoverflow.com/questions/tagged/rust) - Perguntas e respostas
+- [**Rust Discord**](https://discord.gg/rust-lang) - Chat em tempo real
+
+## 📖 **Índice do Módulo**
+
+- [**Objetivos de Aprendizagem**](#-objetivos-de-aprendizagem)
+- [**Pré-requisitos**](#-pré-requisitos)
+- [**Recursos de Aprendizado**](#-recursos-de-aprendizado)
+- [**Conteúdo Teórico**](#-conteúdo-teórico)
+- [**Exemplos Práticos**](#-exemplos-práticos)
+- [**Tutorial Prático**](#-tutorial-prático-biblioteca-personalizada)
+- [**Atividades Práticas**](#-atividades-práticas)
+- [**Exercícios de Fixação**](#-exercícios-de-fixação)
+- [**Próximos Passos**](#-próximos-passos)
+- [**Navegação**](#-navegação)
 
 ## 📚 Conteúdo Teórico
 
@@ -275,6 +326,47 @@ Desenvolva um framework de testes personalizado.
 
 ### Atividade 3: Biblioteca de Algoritmos
 Implemente uma biblioteca com algoritmos de ordenação e busca.
+
+## 📝 Exercícios de Fixação
+
+1. **Pergunta:** O que é o Cargo.toml?
+   - Resposta: É o arquivo de configuração do projeto que define metadados, dependências e configurações de build
+
+2. **Pergunta:** Como gerenciar dependências no Cargo?
+   - Resposta: Adicionando dependências no Cargo.toml e usando cargo add para adicionar automaticamente
+
+3. **Pergunta:** Qual a diferença entre cargo build e cargo run?
+   - Resposta: cargo build compila o projeto, cargo run compila e executa o binário
+
+## 🔗 Próximos Passos
+
+No próximo módulo, você aprenderá a:
+
+- Integrar todos os conceitos aprendidos
+- Criar projetos completos e funcionais
+- Implementar sistemas reais
+- Desenvolver portfólio profissional
+
+## 🧭 **Navegação**
+
+### **📚 Material de Apoio**
+- [**README Principal**](../../README.md) - Visão geral do curso
+- [**Tutoriais Detalhados**](../../TUTORIAIS.md) - Guia completo de tutoriais
+- [**Módulo 8: Lifetimes**](../modulo-08-lifetimes-advanced/README.md) - Módulo anterior
+- [**Módulo 10: Projetos**](../modulo-10-projetos-praticos/README.md) - Próximo módulo
+- [**Módulo Embarcados**](../modulo-embarcados/README.md) - Desenvolvimento IoT
+
+### **🔗 Links Úteis**
+- [Comunidade Rust Brasil](https://github.com/rust-br)
+- [Documentação Oficial](https://doc.rust-lang.org/)
+- [Rust Playground](https://play.rust-lang.org/)
+- [Crates.io](https://crates.io/)
+
+### **📖 Documentação Oficial**
+- [The Rust Book](https://doc.rust-lang.org/book/)
+- [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
+- [Rustlings](https://github.com/rust-lang/rustlings)
+- [Cargo Book](https://doc.rust-lang.org/cargo/)
 
 ---
 
